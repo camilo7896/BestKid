@@ -1,5 +1,7 @@
 # BestKid
 
+![logo](https://raw.githubusercontent.com/CristianMontoya98/Legacy-Red-social-Progr-mate/4f6ddfdc42841b5756285afde485ddf0eb331458/src/assets/images/logo.svg)
+
 Esta startup se dedica a la venta de productos de segunda mano para bebés en excelente estado, contribuyendo así a la economía circular, 
 promoviendo la reutilización de artículos infantiles y brindando una opción asequible y sostenible para las familias en Colombia.
 
