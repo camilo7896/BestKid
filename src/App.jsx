@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
+    <section>
+      <h1 className="text-5xl underline text-center text-orange-800">
+        Hello world! <span className="text-green-600 font-fontTitleBold">PRUEBA</span>
+      </h1>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+        <h1 className="h1">Big Title</h1>
+        <h2 className="h2">Medium Title</h2>
+        <h3 className="h3">Subtitle</h3>
+        <h4 className="h4">Highlights</h4>
+        <p1 className="p1">Big text</p1>
+        <p2 className="p2">Medium text</p2>
+        <p3 className="p3">Small text</p3>
+      </div> 
+      <button className="green-button h3">¡Regístrate!</button>
+    </section>
+  );
 }
 
-export default App
+export default App;
