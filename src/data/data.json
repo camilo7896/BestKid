@@ -1,0 +1,70 @@
+{
+    "products":[
+        {
+            "id": 1,
+      "name": "Coche para bebe",
+      "image": "../../public/images/cochebebé.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "150.000"
+        },
+        {
+            "id": 1,
+      "name": "Coche para bebe",
+      "image": "../../public/images/cochebebé.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "150.000"
+        },
+        {
+            "id": 1,
+      "name": "Coche para bebe",
+      "image": "../../public/images/cochebebé.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "150.000"
+        },
+        {
+            "id": 1,
+      "name": "Coche para bebe",
+      "image": "../../public/images/cochebebé.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "150.000"
+        },
+        {
+            "id": 1,
+      "name": "Coche para bebe",
+      "image": "../../public/images/cochebebé.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "150.000"
+        },
+        {
+            "id": 1,
+      "name": "Coche para bebe",
+      "image": "../../public/images/cochebebé.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "150.000"
+        },
+        {
+            "id": 1,
+      "name": "Coche para bebe",
+      "image": "../../public/images/cochebebé.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "150.000"
+        },
+        {
+            "id": 1,
+      "name": "Coche para bebe",
+      "image": "../../public/images/cochebebé.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "150.000"
+        },
+        {
+            "id": 1,
+      "name": "Coche para bebe",
+      "image": "../../public/images/cochebebé.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "150.000"
+        }
+        
+    
+    
+    ]
+}
