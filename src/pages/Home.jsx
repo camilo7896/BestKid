@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar"
 const Home = () => {
   return (
     <>
-      <section className="bg-green-200">
+      <section className="bg-green-100">
         <Navbar/>
       </section>
       <section>
