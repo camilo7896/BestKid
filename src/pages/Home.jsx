@@ -1,12 +1,17 @@
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
+import ContainerCategories from "../components/ContainerCategories";
+import Carrousel from "../components/Carrousel";
 
 
 const Home = () => {
   return (
     <>
       <section className="bg-green-100">
-        <Navbar/>
+        <Navbar />
+      </section>
+      <section>
+   <Carrousel/>
       </section>
       <section>
         <div className="mx-14 text-center">
@@ -14,11 +19,7 @@ const Home = () => {
           <div className="p2 leading-4 text-orange-500">Te invitamos a descubrir la amplia variedad de productos que puedes encontrar en<span className="font-fontTitleBold text-[13px] sm:text-lg tracking-wide text-green-600"> best mar<span className="text-orange-500">kid</span></span>.</div>
         </div>
         <div className="mx-10 pt-8 pb-16 flex flex-col gap-3.5">
-          <button className="mx-4 bg-orange-200 hover:bg-orange-500/60"><h2 className="py-4 self-center h2 uppercase text-transparent hover:text-lightOrange-50">ROPA</h2></button>
-          <button className="mx-4 bg-orange-200 hover:bg-orange-500/60"><h2 className="py-4 self-center h2 uppercase text-transparent hover:text-lightOrange-50">ZAPATOS</h2></button>
-          <button className="mx-4 bg-orange-200 hover:bg-orange-500/60"><h2 className="py-4 self-center h2 uppercase text-transparent hover:text-lightOrange-50">COCHES</h2></button>
-          <button className="mx-4 bg-orange-200 hover:bg-orange-500/60"><h2 className="py-4 self-center h2 uppercase text-transparent hover:text-lightOrange-50">JUGUETES</h2></button>
-          <button className="mx-4 bg-orange-200 hover:bg-orange-500/60"><h2 className="py-4 self-center h2 uppercase text-transparent hover:text-lightOrange-50">ACCESORIOS</h2></button>
+          <ContainerCategories/>
         </div>
       </section>
       <section className="bg-[url('../public/images/BANNER_ONE.webp')] bg-cover bg-no-repeat bg-center">
@@ -37,7 +38,7 @@ const Home = () => {
         <h2 className="mx-14 h2 text-green-600">Lo más vendido</h2>
         <h1 className="h1">Luego la hago</h1>
       </section>
-      <Footer/>
+      <Footer />
     </>
   )
 }
