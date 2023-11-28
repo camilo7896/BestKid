@@ -29,3 +29,7 @@
         @apply bg-green-900 hover:bg-lightGreen-50 shadow-lg shadow-green-900/40 rounded-full px-6 sm:px-8 py-1.5 sm:py-2.5 text-lightGreen-50 hover:text-green-900
     }
 }
+
+logo{
+    width: 20px;
+}

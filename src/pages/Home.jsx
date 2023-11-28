@@ -1,11 +1,12 @@
 import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
 
 
 const Home = () => {
   return (
     <>
-      <section className="bg-green-600">
-        <h1 className="h1">Luego la hago</h1>
+      <section className="bg-green-200">
+        <Navbar/>
       </section>
       <section>
         <div className="mx-14 text-center">
