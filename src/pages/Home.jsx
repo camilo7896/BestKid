@@ -1,7 +1,7 @@
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-import ContainerCategories from "../components/ContainerCategories";
 import Carrousel from "../components/Carrousel";
+import CategoriesComponent from "../components/CategoriesComponent";
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <Navbar />
       </section>
       <section>
-   <Carrousel/>
+      <Carrousel/>
       </section>
       <section>
         <div className="mx-14 text-center">
@@ -19,7 +19,7 @@ const Home = () => {
           <div className="p2 leading-4 text-orange-500">Te invitamos a descubrir la amplia variedad de productos que puedes encontrar en<span className="font-fontTitleBold text-[13px] sm:text-lg tracking-wide text-green-600"> best mar<span className="text-orange-500">kid</span></span>.</div>
         </div>
         <div className="mx-10 pt-8 pb-16 flex flex-col gap-3.5">
-          <ContainerCategories/>
+        <CategoriesComponent/>
         </div>
       </section>
       <section className="bg-[url('../public/images/BANNER_ONE.webp')] bg-cover bg-no-repeat bg-center">

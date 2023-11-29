@@ -18,7 +18,8 @@ export default {
         fontGeneral: ['Quicksand', 'sans-serif'],
         fontTitleRegular: ['FontSpringRegular', 'serif'],
         fontTitleBold: ['FontSpringBold', 'serif'],
-      },
+      }
+      ,
       screens: {
         'mobile': '500px',
         // => @media (min-width: 640px) { ... }
@@ -35,5 +36,21 @@ export default {
       },
     },
   },
-  plugins: [],
+    // Nuevas clases personalizadas
+    corePlugins: {
+      // ...
+      backgroundOpacity: false, // Desactiva backgroundOpacity para no duplicar clases
+    },
+    plugins: [
+      function ({ addUtilities, theme, variants }) {
+        const newUtilities = {};
+  
+        // Añadir clases para fondo rojo con diferentes opacidades
+        for (let opacity = 10; opacity <= 90; opacity += 10) {
+          newUtilities[`.bg-red-${opacity}`] = { backgroundColor: `rgba(${theme('colors.red.500')}, ${opacity / 100})` };
+        }
+  
+        addUtilities(newUtilities, variants('backgroundOpacity'));
+      },
+    ],
 }
