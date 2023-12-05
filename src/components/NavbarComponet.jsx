@@ -3,7 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Logo from '../../public/images/LOGO_COMPLETO.webp'
 
-const Navbar = () => {
+const NavbarComponet = () => {
     return (
         <>
             <nav className="bg-green-200">
@@ -47,4 +47,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default NavbarComponet

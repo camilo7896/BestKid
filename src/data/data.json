@@ -1,70 +1,28 @@
 {
-    "products":[
-        {
-            "id": 1,
-      "name": "Coche para bebe",
-      "image": "../../public/images/cochebebé.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": "150.000"
-        },
-        {
-            "id": 1,
-      "name": "Coche para bebe",
-      "image": "../../public/images/cochebebé.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": "150.000"
-        },
-        {
-            "id": 1,
-      "name": "Coche para bebe",
-      "image": "../../public/images/cochebebé.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": "150.000"
-        },
-        {
-            "id": 1,
-      "name": "Coche para bebe",
-      "image": "../../public/images/cochebebé.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": "150.000"
-        },
-        {
-            "id": 1,
-      "name": "Coche para bebe",
-      "image": "../../public/images/cochebebé.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": "150.000"
-        },
-        {
-            "id": 1,
-      "name": "Coche para bebe",
-      "image": "../../public/images/cochebebé.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": "150.000"
-        },
-        {
-            "id": 1,
-      "name": "Coche para bebe",
-      "image": "../../public/images/cochebebé.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": "150.000"
-        },
-        {
-            "id": 1,
-      "name": "Coche para bebe",
-      "image": "../../public/images/cochebebé.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": "150.000"
-        },
-        {
-            "id": 1,
-      "name": "Coche para bebe",
-      "image": "../../public/images/cochebebé.png",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": "150.000"
-        }
-        
-    
-    
-    ]
+  "policy": [
+    {
+      "id": 1,
+      "name": "¿Quienes Somos?",
+      "image": "../../public/images/OSO.webp",
+      "description": "Best Markid es un emprendimiento con liderazgo femenino que nace de una necesidad identificada a través de nuestra experiencia en el mercado de productos infantiles. Nos apasiona brindar soluciones a las familias ofreciendo una alternativa sostenible y accesible para adquirir artículos infantiles de calidad."
+    },
+    {
+      "id": 2,
+      "name": "¿Que hacemos?",
+      "image": "../../public/images/logo-confianza.png",
+      "description": "En Best Markid, nos dedicamos a revolucionar la forma en que compradores y vendedores interactúan y llevan a cabo sus transacciones. Nuestra misión es crear un espacio digital donde la confianza, la eficiencia y la seguridad se fusionen para ofrecer una experiencia única."
+    },
+    {
+      "id": 3,
+      "name": "¿Descubre Cómo Transformamos Transacciones?",
+      "image": "../../public/images/engran.png",
+      "description": "En Best Markid simplificamos cada paso. Regístrate, publica tus productos, realiza compras seguras con nuestro respaldo, y relájate mientras coordinamos la logística. ¿Tienes preguntas? Brindamos soporte rápido. Con pagos garantizados y construcción de reputación, cada interacción es confiable. Descubre más sobre nuestra revolución en compras y ventas."
+    },
+    {
+      "id": 4,
+      "name": "¿Como funciona?",
+      "image": "../../public/images/icono_como_pagar.png",
+      "description": "Best Markid esta diseñada para facilitar la conexión entre vendedores y compradores, garantizando una transacción segura y eficiente."
+    }
+  ]
 }

@@ -1,17 +1,18 @@
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
-import Carrousel from "../components/Carrousel";
+import FooterComponent from "../components/FooterComponent"
+import NavbarComponet from "../components/NavbarComponet"
+import CarrouselComponent from "../components/CarrouselComponent";
 import CategoriesComponent from "../components/CategoriesComponent";
+import AboutUs from "../components/AboutUs";
 
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <section className="bg-green-100">
-        <Navbar />
+        <NavbarComponet />
       </section>
       <section>
-      <Carrousel/>
+      <CarrouselComponent/>
       </section>
       <section>
         <div className="mx-14 text-center">
@@ -29,18 +30,13 @@ const Home = () => {
           <button className="green-button h2">¡Regístrate!</button>
         </div>
       </section>
-      <section className="py-16 text-center">
-        <h2 className="mx-14 h2 text-orange-500">¿Quiénes somos?</h2>
-        <img src="../public/images/OSO.webp" className="m-auto py-8"></img>
-        <div className="mx-10 p2 leading-4 text-orange-800"><span className="font-fontTitleBold text-[13px] sm:text-lg tracking-wide text-green-600"> best mar<span className="text-orange-500">kid </span></span>es un emprendimiento con liderazgo femenino que nace de una necesidad identificada a través de nuestra experiencia en el mercado de productos infantiles. Nos apasiona brindar soluciones a las familias ofreciendo una alternativa sostenible y accesible para adquirir artículos infantiles de calidad.</div>
+      <section>
+        <AboutUs/>
       </section>
-      <section className="text-center">
-        <h2 className="mx-14 h2 text-green-600">Lo más vendido</h2>
-        <h1 className="h1">Luego la hago</h1>
-      </section>
-      <Footer />
+      
+      <FooterComponent />
     </>
   )
 }
 
-export default Home
+export default HomePage

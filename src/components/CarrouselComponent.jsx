@@ -5,7 +5,7 @@ import Slider1 from '../../public/slider/ropaBebe.jpg'
 import Slider2 from '../../public/slider/vestidoRosa.jpg'
 import Slider3 from '../../public/slider/vistaFrontal.jpg'
 
-const Carrousel = () => {
+const CarrouselComponent = () => {
     const settings = {
         dots: true,
         infinite: true,
@@ -75,5 +75,5 @@ const Carrousel = () => {
     );
 }
 
-export default Carrousel;
+export default CarrouselComponent;
 
