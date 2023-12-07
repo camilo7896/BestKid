@@ -1,5 +1,5 @@
 {
-  "policy": [
+  "bestMarkid": [
     {
       "id": 1,
       "name": "¿Quienes Somos?",
@@ -23,6 +23,19 @@
       "name": "¿Como funciona?",
       "image": "../../public/images/icono_como_pagar.png",
       "description": "Best Markid esta diseñada para facilitar la conexión entre vendedores y compradores, garantizando una transacción segura y eficiente."
+    },
+    {
+      "id": 5,
+      "name": "Misión",
+      "image": "../../public/images/icono_como_pagar.png",
+      "description": "Nuestra misión es fomentar una comunidad sostenible y consciente al proporcionar una plataforma dedicada a la reutilización de artículos para bebés en excelente estado. Nos esforzamos por ofrecer a las familias una alternativa ecoamigable, promoviendo la circulación responsable de productos infantiles para reducir la huella ambiental y contribuir al bienestar del planeta."
+    },
+    {
+      "id": 6,
+      "name": "Visión",
+      "image": "../../public/images/icono_como_pagar.png",
+      "description": "Nuestra misión es fomentar una comunidad sostenible y consciente al proporcionar una plataforma dedicada a la reutilización de artículos para bebés en excelente estado. Nos esforzamos por ofrecer a las familias una alternativa ecoamigable, promoviendo la circulación responsable de productos infantiles para reducir la huella ambiental y contribuir al bienestar del planeta."
     }
+  
   ]
 }
